@@ -1,0 +1,13 @@
+==> How to compare/committ
+
+==> HOw to test in console run
+
+~~ only possible for ruby-rails application , not supported for .js file
+~~ to test a .js file , import it in .html file and run in browser or simply copy 
+~~ code and paste it in browser console.
+ 
+==> Coding conventions
+
+==> 
+ 
+ 

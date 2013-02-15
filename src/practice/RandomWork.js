@@ -1,14 +1,21 @@
 /**
- * @author sharvankumar
- * @date 15-02-13
- */
-function ObjectTiero(){
-	this.name = "";
-	this.age;
+ * js file contains the methods tobe called from
+ * 
+ * html file at run time
+ * 
+ * to check the mouseover event behaviour
+ * 
+ */ 
+function setName(){
+	
+	var person = new ObjectTiero();
+	// person.name = "Shravan";
+	person.age = 25;
+	
+	
+	document.getElementById('textShow').innerHTML = "Name:"+person.name +"\n"+"Age:"+person.age;	
+
 }
 
-var person = new ObjectTiero();
-person.name = "SHravan";
-person.age = 25;
 
-print(person.name);
+
