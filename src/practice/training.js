@@ -58,7 +58,7 @@ var unnaVol = new MyObject("Deeopy Kenn",32);
 
 unnaVol.prototype = new MyObject;
 
-unnaVol.prototype.camerinVolume  = 45;
+unnaVol.prototype.camerinVolume  = 40;
 
 
 
