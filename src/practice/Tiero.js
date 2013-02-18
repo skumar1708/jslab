@@ -11,3 +11,11 @@ function ObjectTiero(){
 	this.age = 18;
 	this.projects = [];
 }
+
+function Sequence(){
+	
+	this.rangeCount = 30;
+}
+
+Sequence.prototype = new ObjectTiero;
+

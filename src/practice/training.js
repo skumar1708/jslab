@@ -21,7 +21,7 @@ return this.age;
 }
 
 
-var testObj = new MyObject("Skumar","26");
+var testObj = new MyObject("Skumar",26);
 
 console.log("old name==="+testObj.getName());
 
@@ -46,10 +46,20 @@ ConsTest.prototype.setAddress = function(newAddress){
 }
 
 
-//can we check the XMl in browser console practice
 
 var person = new XML('<root><name>Bob Smith</name><likes><os>Linux</os><browser>Firefox</browser><language>JavaScript</language><language>Python</language></likes></root>');
 
 //var xml = person.toXMLString();
 
 console.log(person.name);
+
+var unnaVol = new MyObject("Deeopy Kenn",32);
+
+
+unnaVol.prototype = new MyObject;
+
+unnaVol.prototype.camerinVolume  = 45;
+
+
+
+
